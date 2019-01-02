@@ -23,7 +23,7 @@ header nav ul li{
 }
 
 header nav ul li a{
-	color: #5a4ff5;
+	color: #fcfafa;
 	transition: all 0.3s ease-in;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
@@ -35,7 +35,7 @@ header nav ul li a{
 
 header nav ul li a:hover, header nav ul li a:focus
 {
-	color: #fcfafa;
+	color: #5a4ff5;
 	text-decoration: none;
 }
 .slider{
