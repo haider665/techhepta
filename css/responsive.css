@@ -1,0 +1,163 @@
+.slicknav_menu
+{
+	display: none;
+}
+
+@media screen and (max-width: 992px){
+
+    .slider
+    {
+    	margin-top: 75px;
+    }
+
+    header{
+    	margin-top: -75px;
+    }
+
+	#menu
+	{
+		display: none;
+	}
+	.slicknav_menu
+	{
+
+		display: inline-block;
+		position: fixed;
+		background: rgba(0,0,0,0);
+		z-index: 1000;
+		right: 0px;
+		margin-top: -75px;
+		text-align: center;
+	}
+	.slicknav_btn
+	{
+		background-color: #000099;
+		margin: 20px 20px 0 0;
+	}
+	.slicknav_nav
+	{
+		background:  #0C0C0C;
+		width: 200px;
+		height: 205px;
+	}
+	.slider, .slider ul.slider-carousel, .slider ul.slider-carousel li{
+		height: 487px;
+	}
+
+	.slider ul.slider-carousel li h1
+    {
+	margin-top: 100px;
+	margin-bottom: 30px;
+    }
+
+    /** portfolio style**/
+
+	.portfolio-carousel li
+	{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.portfolio-carousel h3
+	{
+		font-size: 14px;
+	}
+
+	.portfolio .inner-content
+	{
+		width: 200px;
+		height: 180px;
+	}
+	/** team section**/
+	.team-carousel h3
+	{
+		font-size: 14px;
+	}
+
+	.team .inner-content
+	{
+		width: 200px;
+		height: 180px;
+	}
+
+	.team-carousel li
+	{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.team-carousel p.description
+	{
+		display: none;
+	}
+	/** footer**/
+	footer{
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 770px){
+
+	.portfolio-carousel h3
+	{
+		font-size: 12px;
+	}
+
+	.portfolio .inner-content
+	{
+			
+		width: 180px;
+		height: 150px;
+	}
+
+	.portfolio li p
+	{
+		font-size: 12px;
+	}
+	/** team section**/
+	.team-carousel h3
+	{
+		font-size: 12px;
+	}
+
+	.team .inner-content
+	{
+		width: 180px;
+		height: 150px;
+	}
+
+	.team li p
+	{
+		font-size: 12px;
+	}
+
+@media screen and (max-width: 404px){
+
+	.slider ul li a
+	{
+		display:block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.slider ul.slider-carousel li a.cta2{
+		background-color: #000099;
+	}
+	.slider ul.slider-carousel li a.cta1
+	{
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+    }
+    .slider ul.slider-carousel li a.cta2
+	{
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+    }
+    
+
+}
